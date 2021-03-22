@@ -33,7 +33,17 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(v: View?) {
-        counter++
+       if(v == txv){
+           counter++
+       }
+        else if(v == img){
+           counter+=2
+       }
+        else if(v == btn4){
+           counter = (0..100).random()
+           txv.text = counter.toString()
+
+       }
         txv.text = counter.toString()
     }
 
