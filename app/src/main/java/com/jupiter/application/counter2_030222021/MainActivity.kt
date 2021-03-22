@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity() {
            counter = 0
        }
         txv.text = counter.toString()
+
     }
 
 }
