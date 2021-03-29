@@ -1,6 +1,7 @@
 package com.jupiter.application.counter2_030222021
 
 import android.os.Bundle
+import android.os.Vibrator
 import android.view.MotionEvent
 import android.view.View
 import android.widget.TextView
@@ -33,7 +34,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener, View.OnLongClick
 
         txv2.setOnTouchListener(object :View.OnTouchListener{
             override fun onTouch(v: View?, event: MotionEvent?): Boolean {
-                //txv2.text="TEST OK"
                 if(event?.action == MotionEvent.ACTION_DOWN){
                     txv2.text="TEST OK_DOWN(Press)"
                 }
