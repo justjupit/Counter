@@ -46,6 +46,18 @@
         android:layout_height="wrap_content"
         android:text="random" />
 
+    <TextView
+        android:id="@+id/txv2"
+        android:layout_width="match_parent"
+        android:layout_height="269dp"
+        android:gravity="center"
+        android:text="empty"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
         android:id="@+id/img"
         android:layout_width="match_parent"
